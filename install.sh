@@ -1,6 +1,8 @@
 #!/bin/sh
 
 directory=$(pwd)
+user=$(echo $USER)
+
 GREEN='\033[0;32m'
 NC='\033[0m' # No color
 
@@ -27,4 +29,9 @@ printf "${GREEN}Installing kubernetes alias${NC}\n"
 cp -f  ${directory}/kubernetes.alias $HOME/.kubernetes.alias
 
 echo "source ~/.kubernetes.alias" >> ~/.zshrc
+
+printf "${GREEN}Updating the ${user} shell to zsh${NC}\n"
+
+sudo usermod -s /bin/zsh ${user}
+
 
