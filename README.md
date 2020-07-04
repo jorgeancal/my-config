@@ -1,7 +1,9 @@
-# My config
-
+# My Terminal Config
 ## Prerequisites
 - Zsh should be installed
-- curl
 - git should be installed
 
+## Installation
+```
+$ git clone https://github.com/jorgeancal/my-config.git && cd my-config && ./install.sh
+```
