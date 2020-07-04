@@ -4,6 +4,8 @@
 - git should be installed
 
 ## Installation
+In this installation we are going to install `Oh my zsh!` && `powerleve10k` && some fonts... you only need to run the following command:
+
 ```
 $ git clone https://github.com/jorgeancal/my-config.git && cd my-config && ./install.sh
 ```
