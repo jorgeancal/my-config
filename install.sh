@@ -24,7 +24,7 @@ cp -f ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 mv ~/.zshrc ~/.zshrc.backup && sed 's/robbyrussell/powerlevel10k\/powerlevel10k/g' ~/.zshrc.backup > ~/.zshrc
 
-mv ~/.zshrc ~/.zshrc.backup.2 && sed 's/plugins=(git)/plugins=(git kubectl zsh-interactive-cd docker-compose)/g' ~/.zshrc.backup.2 > ~/.zshrc  
+mv ~/.zshrc ~/.zshrc.backup.2 && sed 's/plugins=(git)/plugins=(git kubectl docker-compose)/g' ~/.zshrc.backup.2 > ~/.zshrc  
 
 cp -f  ${directory}/p10k.zsh ~/.p10k.zsh
 
